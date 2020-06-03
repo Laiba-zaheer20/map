@@ -1,5 +1,6 @@
 #pragma once
-
+#include "StdAfx.h"
+#include "runit.h"
 namespace Map {
 
 	using namespace System;
@@ -34,6 +35,9 @@ namespace Map {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^  button1;
+	private: System::Windows::Forms::TextBox^  textBox1;
+	protected: 
 
 	private:
 		/// <summary>
@@ -48,18 +52,47 @@ namespace Map {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(214, 104);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(75, 23);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"button1";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &Form2::button1_Click);
+			// 
+			// textBox1
+			// 
+			this->textBox1->Location = System::Drawing::Point(214, 244);
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(100, 22);
+			this->textBox1->TabIndex = 1;
 			// 
 			// Form2
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(593, 413);
+			this->Controls->Add(this->textBox1);
+			this->Controls->Add(this->button1);
 			this->Name = L"Form2";
 			this->Text = L"Form2";
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
+	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	runit^ k1= gcnew runit();
+	int lk= k1->pak();
+	if(lk==2){
+	textBox1->Text="hey";
+	}
+			 }
 	};
 }

@@ -1,6 +1,8 @@
 #pragma once
 #include "matrixs.h"
 #include "Form4.h"
+#include "Form5.h"
+#include "Form6.h"
 namespace Map {
 
 	using namespace System;
@@ -77,17 +79,17 @@ namespace Map {
 
 
 	private: System::Windows::Forms::Button^  button2;
-	private: System::Windows::Forms::Button^  button3;
+
 	private: System::Windows::Forms::Button^  button7;
 	private: System::Windows::Forms::Button^  button6;
 
 
 
-	private: Microsoft::VisualBasic::PowerPacks::OvalShape^  ovalShape1;
 
 
 
-	private: Microsoft::VisualBasic::PowerPacks::ShapeContainer^  shapeContainer2;
+
+
 
 	private: System::Windows::Forms::Panel^  panel2;
 	private: System::Windows::Forms::Panel^  panel3;
@@ -109,6 +111,7 @@ namespace Map {
 	private: Microsoft::VisualBasic::PowerPacks::LineShape^  lineShape9;
 	private: Microsoft::VisualBasic::PowerPacks::LineShape^  lineShape8;
 	private: Microsoft::VisualBasic::PowerPacks::LineShape^  lineShape7;
+	private: System::Windows::Forms::Button^  button3;
 
 	protected: 
 
@@ -128,14 +131,22 @@ namespace Map {
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Form3::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->shapeContainer1 = (gcnew Microsoft::VisualBasic::PowerPacks::ShapeContainer());
+			this->lineShape12 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape10 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape9 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape8 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape7 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape6 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape5 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape4 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape3 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape2 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->lineShape1 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
 			this->ovalShape8 = (gcnew Microsoft::VisualBasic::PowerPacks::OvalShape());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->shapeContainer2 = (gcnew Microsoft::VisualBasic::PowerPacks::ShapeContainer());
-			this->ovalShape1 = (gcnew Microsoft::VisualBasic::PowerPacks::OvalShape());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
@@ -154,17 +165,7 @@ namespace Map {
 			this->panel8 = (gcnew System::Windows::Forms::Panel());
 			this->panel9 = (gcnew System::Windows::Forms::Panel());
 			this->panel10 = (gcnew System::Windows::Forms::Panel());
-			this->lineShape1 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape2 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape3 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape4 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape5 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape6 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape7 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape8 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape9 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape10 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
-			this->lineShape12 = (gcnew Microsoft::VisualBasic::PowerPacks::LineShape());
+			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->panel1->SuspendLayout();
 			this->panel2->SuspendLayout();
 			this->panel3->SuspendLayout();
@@ -205,6 +206,96 @@ namespace Map {
 			this->shapeContainer1->TabIndex = 2;
 			this->shapeContainer1->TabStop = false;
 			// 
+			// lineShape12
+			// 
+			this->lineShape12->Name = L"lineShape12";
+			this->lineShape12->X1 = 638;
+			this->lineShape12->X2 = 592;
+			this->lineShape12->Y1 = 378;
+			this->lineShape12->Y2 = 410;
+			// 
+			// lineShape10
+			// 
+			this->lineShape10->Name = L"lineShape10";
+			this->lineShape10->X1 = 506;
+			this->lineShape10->X2 = 568;
+			this->lineShape10->Y1 = 146;
+			this->lineShape10->Y2 = 322;
+			// 
+			// lineShape9
+			// 
+			this->lineShape9->Name = L"lineShape9";
+			this->lineShape9->X1 = 396;
+			this->lineShape9->X2 = 470;
+			this->lineShape9->Y1 = 416;
+			this->lineShape9->Y2 = 417;
+			// 
+			// lineShape8
+			// 
+			this->lineShape8->Name = L"lineShape8";
+			this->lineShape8->X1 = 641;
+			this->lineShape8->X2 = 641;
+			this->lineShape8->Y1 = 199;
+			this->lineShape8->Y2 = 224;
+			// 
+			// lineShape7
+			// 
+			this->lineShape7->Name = L"lineShape7";
+			this->lineShape7->X1 = 638;
+			this->lineShape7->X2 = 608;
+			this->lineShape7->Y1 = 276;
+			this->lineShape7->Y2 = 320;
+			// 
+			// lineShape6
+			// 
+			this->lineShape6->Name = L"lineShape6";
+			this->lineShape6->X1 = 306;
+			this->lineShape6->X2 = 399;
+			this->lineShape6->Y1 = 155;
+			this->lineShape6->Y2 = 113;
+			// 
+			// lineShape5
+			// 
+			this->lineShape5->Name = L"lineShape5";
+			this->lineShape5->X1 = 295;
+			this->lineShape5->X2 = 293;
+			this->lineShape5->Y1 = 202;
+			this->lineShape5->Y2 = 272;
+			// 
+			// lineShape4
+			// 
+			this->lineShape4->Name = L"lineShape4";
+			this->lineShape4->X1 = 305;
+			this->lineShape4->X2 = 324;
+			this->lineShape4->Y1 = 326;
+			this->lineShape4->Y2 = 384;
+			this->lineShape4->Click += gcnew System::EventHandler(this, &Form3::lineShape4_Click);
+			// 
+			// lineShape3
+			// 
+			this->lineShape3->Name = L"lineShape3";
+			this->lineShape3->X1 = 519;
+			this->lineShape3->X2 = 605;
+			this->lineShape3->Y1 = 123;
+			this->lineShape3->Y2 = 146;
+			// 
+			// lineShape2
+			// 
+			this->lineShape2->Name = L"lineShape2";
+			this->lineShape2->X1 = 422;
+			this->lineShape2->X2 = 473;
+			this->lineShape2->Y1 = 281;
+			this->lineShape2->Y2 = 392;
+			// 
+			// lineShape1
+			// 
+			this->lineShape1->Name = L"lineShape1";
+			this->lineShape1->X1 = 454;
+			this->lineShape1->X2 = 407;
+			this->lineShape1->Y1 = 152;
+			this->lineShape1->Y2 = 227;
+			this->lineShape1->Click += gcnew System::EventHandler(this, &Form3::lineShape1_Click);
+			// 
 			// ovalShape8
 			// 
 			this->ovalShape8->Location = System::Drawing::Point(-47, 259);
@@ -219,26 +310,10 @@ namespace Map {
 			this->panel1->Controls->Add(this->button7);
 			this->panel1->Controls->Add(this->button6);
 			this->panel1->Controls->Add(this->button2);
-			this->panel1->Controls->Add(this->shapeContainer2);
 			this->panel1->Location = System::Drawing::Point(12, 98);
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(183, 337);
 			this->panel1->TabIndex = 3;
-			// 
-			// button3
-			// 
-			this->button3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)), 
-				static_cast<System::Int32>(static_cast<System::Byte>(128)));
-			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
-				static_cast<System::Byte>(0)));
-			this->button3->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->button3->Location = System::Drawing::Point(18, 244);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(142, 46);
-			this->button3->TabIndex = 20;
-			this->button3->Text = L"Adjancency List";
-			this->button3->UseVisualStyleBackColor = false;
 			// 
 			// button7
 			// 
@@ -248,11 +323,11 @@ namespace Map {
 			this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
 			this->button7->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->button7->Location = System::Drawing::Point(18, 94);
+			this->button7->Location = System::Drawing::Point(18, 86);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(142, 82);
 			this->button7->TabIndex = 19;
-			this->button7->Text = L"Shortest Distance Between Location";
+			this->button7->Text = L"Shortest Distance Between Two Location";
 			this->button7->UseVisualStyleBackColor = false;
 			this->button7->Click += gcnew System::EventHandler(this, &Form3::button7_Click);
 			// 
@@ -266,10 +341,11 @@ namespace Map {
 			this->button6->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 			this->button6->Location = System::Drawing::Point(18, 182);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(142, 46);
+			this->button6->Size = System::Drawing::Size(142, 81);
 			this->button6->TabIndex = 18;
-			this->button6->Text = L"Nearest Location";
+			this->button6->Text = L"Shortest Path Between Two Location";
 			this->button6->UseVisualStyleBackColor = false;
+			this->button6->Click += gcnew System::EventHandler(this, &Form3::button6_Click);
 			// 
 			// button2
 			// 
@@ -279,28 +355,12 @@ namespace Map {
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
 			this->button2->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->button2->Location = System::Drawing::Point(18, 31);
+			this->button2->Location = System::Drawing::Point(18, 25);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(142, 46);
 			this->button2->TabIndex = 14;
-			this->button2->Text = L"Nearest Location";
+			this->button2->Text = L"Nearest Restuarant";
 			this->button2->UseVisualStyleBackColor = false;
-			// 
-			// shapeContainer2
-			// 
-			this->shapeContainer2->Location = System::Drawing::Point(0, 0);
-			this->shapeContainer2->Margin = System::Windows::Forms::Padding(0);
-			this->shapeContainer2->Name = L"shapeContainer2";
-			this->shapeContainer2->Shapes->AddRange(gcnew cli::array< Microsoft::VisualBasic::PowerPacks::Shape^  >(1) {this->ovalShape1});
-			this->shapeContainer2->Size = System::Drawing::Size(183, 337);
-			this->shapeContainer2->TabIndex = 21;
-			this->shapeContainer2->TabStop = false;
-			// 
-			// ovalShape1
-			// 
-			this->ovalShape1->Location = System::Drawing::Point(126, 136);
-			this->ovalShape1->Name = L"ovalShape1";
-			this->ovalShape1->Size = System::Drawing::Size(109, 49);
 			// 
 			// label1
 			// 
@@ -516,95 +576,21 @@ namespace Map {
 			this->panel10->Size = System::Drawing::Size(140, 38);
 			this->panel10->TabIndex = 0;
 			// 
-			// lineShape1
+			// button3
 			// 
-			this->lineShape1->Name = L"lineShape1";
-			this->lineShape1->X1 = 454;
-			this->lineShape1->X2 = 407;
-			this->lineShape1->Y1 = 152;
-			this->lineShape1->Y2 = 227;
-			this->lineShape1->Click += gcnew System::EventHandler(this, &Form3::lineShape1_Click);
-			// 
-			// lineShape2
-			// 
-			this->lineShape2->Name = L"lineShape2";
-			this->lineShape2->X1 = 422;
-			this->lineShape2->X2 = 473;
-			this->lineShape2->Y1 = 281;
-			this->lineShape2->Y2 = 392;
-			// 
-			// lineShape3
-			// 
-			this->lineShape3->Name = L"lineShape3";
-			this->lineShape3->X1 = 519;
-			this->lineShape3->X2 = 605;
-			this->lineShape3->Y1 = 123;
-			this->lineShape3->Y2 = 146;
-			// 
-			// lineShape4
-			// 
-			this->lineShape4->Name = L"lineShape4";
-			this->lineShape4->X1 = 305;
-			this->lineShape4->X2 = 324;
-			this->lineShape4->Y1 = 326;
-			this->lineShape4->Y2 = 384;
-			this->lineShape4->Click += gcnew System::EventHandler(this, &Form3::lineShape4_Click);
-			// 
-			// lineShape5
-			// 
-			this->lineShape5->Name = L"lineShape5";
-			this->lineShape5->X1 = 295;
-			this->lineShape5->X2 = 293;
-			this->lineShape5->Y1 = 202;
-			this->lineShape5->Y2 = 272;
-			// 
-			// lineShape6
-			// 
-			this->lineShape6->Name = L"lineShape6";
-			this->lineShape6->X1 = 306;
-			this->lineShape6->X2 = 399;
-			this->lineShape6->Y1 = 155;
-			this->lineShape6->Y2 = 113;
-			// 
-			// lineShape7
-			// 
-			this->lineShape7->Name = L"lineShape7";
-			this->lineShape7->X1 = 638;
-			this->lineShape7->X2 = 608;
-			this->lineShape7->Y1 = 276;
-			this->lineShape7->Y2 = 320;
-			// 
-			// lineShape8
-			// 
-			this->lineShape8->Name = L"lineShape8";
-			this->lineShape8->X1 = 641;
-			this->lineShape8->X2 = 641;
-			this->lineShape8->Y1 = 199;
-			this->lineShape8->Y2 = 224;
-			// 
-			// lineShape9
-			// 
-			this->lineShape9->Name = L"lineShape9";
-			this->lineShape9->X1 = 396;
-			this->lineShape9->X2 = 452;
-			this->lineShape9->Y1 = 416;
-			this->lineShape9->Y2 = 415;
-			// 
-			// lineShape10
-			// 
-			this->lineShape10->Name = L"lineShape10";
-			this->lineShape10->X1 = 506;
-			this->lineShape10->X2 = 568;
-			this->lineShape10->Y1 = 146;
-			this->lineShape10->Y2 = 322;
-			// 
-			// lineShape12
-			// 
-			this->lineShape12->Name = L"lineShape12";
-			this->lineShape12->X1 = 638;
-			this->lineShape12->X2 = 592;
-			this->lineShape12->Y1 = 378;
-			this->lineShape12->Y2 = 410;
+			this->button3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)), 
+				static_cast<System::Int32>(static_cast<System::Byte>(128)));
+			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+				static_cast<System::Byte>(0)));
+			this->button3->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
+			this->button3->Location = System::Drawing::Point(18, 274);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(142, 46);
+			this->button3->TabIndex = 20;
+			this->button3->Text = L"Minimum Weighted Graph";
+			this->button3->UseVisualStyleBackColor = false;
+			this->button3->Click += gcnew System::EventHandler(this, &Form3::button3_Click_1);
 			// 
 			// Form3
 			// 
@@ -658,7 +644,7 @@ private: System::Void button7_Click(System::Object^  sender, System::EventArgs^ 
 			
 this->Hide();
 Form4^ f1= gcnew Form4();
-f1->ShowDialog();			 
+f1->Show();			 
 			 // matrixs^ f1= gcnew matrixs();
              //f1->matrixsall();
 }
@@ -683,6 +669,17 @@ private: System::Void lineShape4_Click(System::Object^  sender, System::EventArg
 private: System::Void lineShape1_Click(System::Object^  sender, System::EventArgs^  e) {
 		 }
 private: System::Void label7_Click(System::Object^  sender, System::EventArgs^  e) {
+		 }
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) { 
+				this->Hide();
+				Form5^ f1= gcnew Form5();
+				f1->Show();
+
+		 }
+private: System::Void button3_Click_1(System::Object^  sender, System::EventArgs^  e) {
+				this->Hide();
+				Form6^ f1= gcnew Form6();
+				f1->Show();
 		 }
 };
 }

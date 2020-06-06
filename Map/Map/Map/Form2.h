@@ -27,8 +27,8 @@ namespace Map {
 			public: 
 		int current_location;
 	private: System::Windows::Forms::Button^  exit;
-	private: System::Windows::Forms::Label^  label2;
-	private: System::Windows::Forms::Label^  label1;
+
+
 	public: 
 		int destination;
 
@@ -86,8 +86,6 @@ namespace Map {
 			this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
 			this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
 			this->exit = (gcnew System::Windows::Forms::Button());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// shapeContainer1
@@ -195,24 +193,6 @@ namespace Map {
 			this->exit->UseVisualStyleBackColor = true;
 			this->exit->Click += gcnew System::EventHandler(this, &Form2::exit_Click);
 			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(0, 0);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(46, 17);
-			this->label2->TabIndex = 5;
-			this->label2->Text = L"label2";
-			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(250, 85);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(46, 17);
-			this->label1->TabIndex = 6;
-			this->label1->Text = L"label1";
-			// 
 			// Form2
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -220,8 +200,6 @@ namespace Map {
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(887, 462);
-			this->Controls->Add(this->label1);
-			this->Controls->Add(this->label2);
 			this->Controls->Add(this->exit);
 			this->Controls->Add(this->radioButton2);
 			this->Controls->Add(this->radioButton1);
@@ -403,6 +381,8 @@ private: System::Void exit_Click(System::Object^  sender, System::EventArgs^  e)
 
 		 }
 private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  e) {
+		 }
+private: System::Void label2_Click(System::Object^  sender, System::EventArgs^  e) {
 		 }
 };
 

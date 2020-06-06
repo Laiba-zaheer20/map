@@ -45,6 +45,12 @@
     <ClCompile Include="Form4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Form5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Form1.h">
@@ -71,6 +77,12 @@
     <ClInclude Include="Form4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Form5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -85,6 +97,9 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>

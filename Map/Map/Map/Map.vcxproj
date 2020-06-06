@@ -96,6 +96,8 @@
     <ClCompile Include="Form2.cpp" />
     <ClCompile Include="Form3.cpp" />
     <ClCompile Include="Form4.cpp" />
+    <ClCompile Include="Form5.cpp" />
+    <ClCompile Include="Form6.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="matrixs.cpp" />
     <ClCompile Include="runit.cpp" />
@@ -115,6 +117,12 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Form4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form6.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="matrixs.h" />
@@ -138,6 +146,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

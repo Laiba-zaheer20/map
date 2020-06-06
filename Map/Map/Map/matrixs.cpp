@@ -1,6 +1,7 @@
 #include "StdAfx.h"
 #include "matrixs.h"
 #include "runit.h"
+#include "Form4.h"
 
 matrixs::matrixs(void)
 {
@@ -16,10 +17,12 @@ int matrixs::matrixsall(void)
                      {0, 0, 4, 0, 10, 0, 2, 0, 0}, 
                      {0, 0, 0, 14, 0, 2, 0, 1, 6}, 
                      {8, 11, 0, 0, 0, 0, 1, 0, 7}, 
-                     {0, 0, 2, 0, 0, 0, 6, 7, 0} 
+                     {0, 0, 2, 0, 0, 0, 6, 7, 0},
                     }; 
 
     runit^ f1= gcnew runit();
-    f1->dijkstra(graph, 0); 
+    int *p;
+    p=f1->dijkstra_for_path(graph, 0);
+
 	return 1;
 }

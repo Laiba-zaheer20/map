@@ -143,9 +143,9 @@ namespace Map {
 			 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 this->Hide();
-Form2^ f1= gcnew Form2();
+Form3^ f1= gcnew Form3();
 f1->ShowDialog();
-		 }
+}
 };
 }
 
